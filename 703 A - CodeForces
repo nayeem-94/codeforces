@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main() 
+{
+ 	int t;
+ 	int a,b;
+ 	int misha=0,tie=0,ceris=0;
+ 	cin>>t;
+ 	while(t--)
+ 	{	
+ 		
+ 		cin>>a>>b;
+ 		if (a>b)
+ 		{
+ 			misha++;
+ 		}
+ 		else if(a==b)
+ 		{
+ 			tie++;
+ 		}
+ 		else
+ 		{
+ 			ceris++;
+
+ 		}
+
+ 		
+ 	}
+ 	//cout<<misha<<tie<<ceris<<endl;
+ 		if (misha>ceris)
+ 		{
+ 			cout<<"Mishka";
+ 		}
+ 		else if (t==tie || misha==ceris)
+ 		{
+ 			cout<<"Friendship is magic!^^";
+ 		}
+ 		else
+ 		{
+ 			cout<<"Chris";
+ 		}
+}
